@@ -1,6 +1,6 @@
 { pkgs }: {
   deps = [
-    pkgs.sudo apt install nodejs-16_x
+    pkgs.sudo apt install node
     pkgs.nodePackages.vscode-langservers-extracted
     pkgs.nodePackages.typescript-language-server
   ];
